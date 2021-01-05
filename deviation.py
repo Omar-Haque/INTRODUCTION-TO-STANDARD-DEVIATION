@@ -29,7 +29,7 @@ for i in listOfDifferences:
     # Adding all the differences between the individual values and mean of the data
     sumOfDifferences += i
 
-# Dividing the sum of differences by the length of the data. How does len work?
+# Dividing the sum of differences by the length of the data.
 resultUnderTheRoot = sumOfDifferences/len(data)
 # Taking the square root of the result. Hence, the standard deviation is found.
 standard_deviation = math.sqrt(resultUnderTheRoot)
